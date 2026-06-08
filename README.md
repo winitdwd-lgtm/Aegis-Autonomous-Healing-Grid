@@ -1,5 +1,10 @@
 # 🛡️ Project Aegis: Autonomous Self-Healing Grid
 
+> [!NOTE]
+> **System Architect:** Vineet M Dharwad  
+> **Core Directive:** Autonomous Grid Remediation  
+> **Trademark & Copyright:** Engineered by Vineet M Dharwad
+
 An AI-powered, real-time self-healing application grid. Aegis implements the **sidecar pattern** using lightweight agents (Node.js & Python) to monitor target services, intercept crashes, request automated patches from a central AI "Brain" powered by **Gemini**, and dynamically hot-swap & resurrect failed services. 
 
 All real-time telemetry, crash reports, and neural healing sequences are visualized through a stunning, futuristic 3D cyberpunk dashboard.
@@ -160,4 +165,6 @@ python agent.py
 
 ## 🛡️ License
 
-This project is licensed under the ISC License. See components' individual configurations for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Copyright (c) 2026 Vineet M Dharwad. All rights reserved.

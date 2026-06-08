@@ -142,6 +142,22 @@ export default function AegisDashboard() {
           </div>
         </div>
 
+        {/* The Architect's Signature */}
+        <div style={{
+          position: 'absolute',
+          bottom: '20px',
+          right: '30px',
+          color: '#64748b',
+          fontSize: '10px',
+          letterSpacing: '3px',
+          fontFamily: "'Fira Code', 'Consolas', monospace",
+          pointerEvents: 'none',
+          textAlign: 'right'
+        }}>
+          ENGINEERED BY<br />
+          <span style={{ color: '#00ffff', fontWeight: 'bold', fontSize: '12px' }}>VINEET M DHARWAD</span>
+        </div>
+
       </div>
     </div>
   );

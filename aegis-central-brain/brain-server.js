@@ -20,6 +20,9 @@ const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 console.log("========================================");
 console.log("🧠 AEGIS CENTRAL BRAIN: ONLINE");
 console.log("========================================");
+console.log(" [SYSTEM ARCHITECT] : Vineet M Dharwad");
+console.log(" [CORE DIRECTIVE]   : Autonomous Grid Remediation");
+console.log("========================================\n");
 
 // When the React UI connects to the radio channel
 io.on('connection', (socket) => {
